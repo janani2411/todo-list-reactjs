@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function Table(props) {
   return (
-    <div className="">
+    <div className="mt-5">
        {
           props.getData.length>0?
           (

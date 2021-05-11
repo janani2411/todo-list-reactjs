@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(200, 248, 242) !important;
+  background-color: rgb(218, 252, 248) !important;
   display: flex;
   flex-direction: column;
 }
@@ -30,4 +30,19 @@ form{
   background:linear-gradient(to right, #a3c2f0, #86d0fb, #798cf7);
   padding : 10px;
   border-radius : 5px;
+}
+
+.nav-link{
+  border-radius: 7px;
+  color:white;
+}
+.nav-link:hover
+{
+  background-color: rgb(112, 214, 245);
+
+  box-shadow: rgb(148, 204, 223) 5px 5px 12px;
+  border-radius: 7px;
+}
+.nav-link:active{
+  background-color: rgb(112, 214, 245);
 }

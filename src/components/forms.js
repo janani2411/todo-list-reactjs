@@ -45,7 +45,7 @@ function Form(props) {
       handleSubmit({ taskName , from , to , type , description , userId , save });
      
     }
-    }}>
+    }} className="mt-5"> 
     <div className="form-group" >
       <label >user Id</label>
       <input type="text" className="form-control"  placeholder="Enter Task" required
@@ -78,7 +78,7 @@ function Form(props) {
       <input type="text" className="form-control"  placeholder="Description about task" required value={description} onChange={(e)=>newDescription(e.target.value)}/>
     </div>
     
-    <button type="submit" className="btn btn-success">{(save)?"Save":"Update"}</button>
+    <button type="submit" className="btn btn-success ml-2">{(save)?"Save":"Update"}</button>
   </form>
   );
 }
